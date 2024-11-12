@@ -1,0 +1,88 @@
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    #da1b60,
+    palevioletred,
+    white
+  );
+}
+
+/* ------------------------------------- */
+
+img {
+  width: 30%;
+}
+
+.userProfile {
+  border-radius: 10p;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+.form-group label {
+  width: 40%;
+  text-align: right;
+  padding-right: 7%;
+  margin-top: 2%;
+  color: black;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 60%;
+}
+
+/* ------------------------------------- */
+
+.alignment {
+  text-align: center;
+}
+
+.alignment button {
+  width: 50%;
+  padding: 1%;
+  background-image: linear-gradient(
+    to right,
+    #da1b60 0%,
+    palevioletred 51%,
+    white 100%
+  );
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 5px;
+  border: none;
+}
+
+.alignment button:hover {
+  background-position: right center;
+  color: black;
+  text-decoration: none;
+}
+
+/* ------------------------------------- */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .userProfile {
+    width: 80%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .userProfile {
+    width: 75%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .userProfile {
+    width: 50%;
+  }
+}

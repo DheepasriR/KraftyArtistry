@@ -1,0 +1,99 @@
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    #da1b60,
+    palevioletred,
+    white
+  );
+  margin: 2% 10% 2% 10%;
+}
+
+/* ----------------------------------- */
+
+#part1 h1 {
+  color: black;
+  text-align: center;
+}
+
+#part1 p {
+  font-size: large;
+  color: white;
+  text-align: justify;
+}
+
+/* ----------------------------------- */
+
+#part2 img {
+  width: 20%;
+}
+
+#part2 h2 {
+  color: black;
+  text-align: center;
+}
+
+#part2 divs {
+  border: 2px solid black;
+  border-width: 2px;
+}
+
+#part2 p {
+  font-size: large;
+  color: black;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.divs {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+/* ----------------------------------- */
+
+#part3 {
+  background-color: white;
+  text-align: center;
+}
+
+#part3_1 {
+  text-align: center;
+}
+
+#part3_2 {
+  text-align: left;
+}
+
+#part3 img {
+  width: 50%;
+}
+
+#part3 h2,
+h3 {
+  color: black;
+}
+
+#part3 button {
+  width: 30%;
+  padding: 1%;
+  background-image: linear-gradient(
+    to right,
+    #da1b60 0%,
+    palevioletred 51%,
+    white 100%
+  );
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 5px;
+  display: block;
+  border: none;
+}
+
+#part3 button:hover {
+  background-position: right center;
+  color: black;
+  text-decoration: none;
+}

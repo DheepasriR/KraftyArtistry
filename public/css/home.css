@@ -1,0 +1,34 @@
+:root {
+  --nav-gradient: linear-gradient(to right, #da1b60, palevioletred, #da1b60);
+}
+
+.navbrand-custom {
+  font-weight: bold;
+  font-size: 1.5rem;
+  background: var(--nav-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+  color: black;
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background: var(--nav-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ----------------------------------- */
+
+.c-img {
+  width: 500px;
+  height: 700px;
+}
+
+.c-button {
+  border: none;
+}
